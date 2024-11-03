@@ -1,0 +1,488 @@
+/* General Styles */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px); /* Slightly move up */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.welcome-message {
+    opacity: 0; /* Start invisible */
+    animation: fadeIn 1s forwards; /* Animate over 1 second */
+    animation-delay: 0.5s; /* Delay for a smoother appearance */
+}
+.hero-section img {
+    float: none; /* Removes floating on smaller screens */
+    display: block;
+    margin: 0 auto; /* Centers the image on smaller screens */
+}
+
+/* Larger screens only */
+@media (min-width: 992px) {
+    .hero-section img {
+        float: right; /* Float only on larger screens */
+        max-width: 250px;
+    }
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #002b4f; /* Dark blue */
+    color: #ff8c00; /* Orange for text accents */
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Make the background cover the full viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #002b4f;
+    z-index: -1;
+}
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place it behind other content */
+}
+.main-content {
+    position: relative;
+    z-index: 1; /* Keep content above the particles */
+    color: white;
+    overflow: hidden;
+    flex: 1; /* Fills available space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: calc(90vh - 120px);
+    background-image: url('../images/luca-bravo-9l_326FISzk-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    margin:0 auto;
+}
+
+.main-content h1 {
+    font-size: 3em;
+    font-weight: 700;
+    color: #ff8c00;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+.main-content p {
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #ff8c00;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.content-wrapper {
+    position: relative;
+    z-index: 1;
+}
+
+h1, h2, h3 {
+    color: #ff8c00;
+}
+.about-content {
+    max-width: 800px; /* Center the content */
+    margin: 0 auto; /* Center align */
+    padding: 20px; /* Add some padding */
+    color: white; /* Text color */
+}
+
+.projects-content {
+    max-width: 800px; /* Center the content */
+    margin: 0 auto; /* Center align */
+    padding: 20px; /* Add some padding */
+    color: white; /* Text color */
+}
+
+.project {
+    margin-bottom: 20px; /* Spacing between projects */
+    padding: 15px;
+    border: 1px solid gold; /* Optional border for project boxes */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.project-link {
+    color: gold; /* Link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.project-link:hover {
+    color: lightgoldenrodyellow; /* Change color on hover */
+}
+
+h1, h2 {
+    color: gold; /* Example for headings */
+}
+
+p {
+    line-height: 1.6; /* Improve readability */
+}
+
+.roadmap-content {
+    max-width: 800px; /* Center the content */
+    margin: 0 auto; /* Center align */
+    padding: 20px; /* Add some padding */
+    color: white; /* Text color */
+}
+
+.timeline {
+    border-left: 2px solid gold; /* Vertical line for the timeline */
+    padding-left: 20px; /* Spacing for timeline items */
+}
+
+.timeline-item {
+    margin-bottom: 20px; /* Spacing between timeline items */
+    position: relative; /* For absolute positioning of elements */
+}
+
+.timeline-item h3 {
+    position: relative;
+    padding-left: 10px; /* Space between border and text */
+    color: gold; /* Heading color */
+}
+
+.timeline-item p {
+    line-height: 1.6; /* Improve readability */
+    color: white; /* Text color */
+}
+
+h1, h2 {
+    color: gold; /* Example for headings */
+}
+
+.blog-content {
+    max-width: 800px; /* Center the content */
+    margin: 0 auto; /* Center align */
+    padding: 20px; /* Add some padding */
+    color: white; /* Text color */
+}
+
+h1, h2 {
+    color: gold; /* Example for headings */
+}
+
+.featured-posts {
+    margin-bottom: 30px; /* Space after featured posts */
+}
+
+.post {
+    margin-bottom: 20px; /* Spacing between posts */
+    border-bottom: 1px solid gold; /* Optional bottom border */
+    padding-bottom: 10px; /* Spacing within posts */
+}
+
+.post a {
+    color: gold; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.post a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.read-more {
+    display: inline-block; /* Block for spacing */
+    margin-top: 10px; /* Space above */
+    color: lightgoldenrodyellow; /* Read more link color */
+}
+
+.categories {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.categories li {
+    margin-bottom: 10px; /* Space between categories */
+}
+
+.categories a {
+    color: gold; /* Category link color */
+}
+
+.contact-content {
+    max-width: 800px; /* Center the content */
+    margin: 0 auto; /* Center align */
+    padding: 20px; /* Add some padding */
+    color: white; /* Text color */
+}
+
+h1, h2 {
+    color: gold; /* Example for headings */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 5px; /* Space below labels */
+}
+
+input, textarea {
+    width: 100%; /* Full-width inputs */
+    padding: 10px; /* Add padding */
+    border: 1px solid gold; /* Border color */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #333; /* Background color for inputs */
+    color: white; /* Text color for inputs */
+}
+
+button {
+    padding: 10px 15px; /* Button padding */
+    background-color: gold; /* Button color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    color: black; /* Text color */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Smooth color transition */
+}
+
+button:hover {
+    background-color: lightgoldenrodyellow; /* Button hover color */
+}
+
+.social-media {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.social-media li {
+    margin-bottom: 10px; /* Space between social media links */
+}
+
+.social-media a {
+    color: gold; /* Social media link color */
+}
+
+
+.about-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.about-content p {
+    line-height: 1.6; /* Improve readability */
+}
+
+header {
+    background-color: #002b4f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+.logo {
+    width: 250px; /* Adjust width as needed */
+    height: auto;
+    vertical-align: middle;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    background-color: #002b4f; /* Matches the dark blue background */
+    padding: 10px;
+    float: right;
+    gap: 20px;
+}
+
+header nav a {
+    color: #ff8c00; /* Matches the orange text color */
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: #ffae42; /* A lighter orange for hover effect */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #ff8c00;
+    text-decoration: none;
+}
+
+/* Logo Container */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Image Styling */
+.logo-container img {
+    width: 150px; /* Adjust size as needed */
+    height: 150px;
+    border-radius: 50%; /* Makes the image circular */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Optional shadow for depth */
+    animation: rotateLogo 5s infinite linear; /* Apply rotation animation */
+}
+
+/* 360-Degree Rotation Animation */
+@keyframes rotateLogo {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+footer {
+    position: relative; /* Makes it relative to content */
+    bottom: 0;
+    width: 100%;
+    padding: 15px 0;
+    /*background-color: #0a3b64; /* Dark blue background for the footer */
+    /*color: #ff9800; /* Gold text color for a cohesive look */
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    text-align: center;
+    font-size: 1em;
+}
+
+/* Reset some default styling */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+img,
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* General Responsive Layout Adjustments */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body {
+    font-size: 100%;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Large desktops and laptops */
+@media (min-width: 992px) {
+    /* Adjustments for large screens */
+    .hero-section h1 {
+        font-size: 3em;
+    }
+}
+
+/* Tablets and medium screens */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Resize fonts and layout for tablets */
+    .hero-section h1 {
+        font-size: 2.5em;
+    }
+}
+
+/* Small screens and smartphones */
+@media (max-width: 767px) {
+    /* Stack elements vertically, reduce padding, adjust font sizes */
+    .hero-section {
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .hero-section h1 {
+        font-size: 2em;
+    }
+
+    .hero-section img {
+        max-width: 150px;
+    }
+
+    header nav {
+        flex-direction: column;
+    }
+
+    footer {
+        font-size: 0.9em;
+        padding: 10px;
+    }
+
+    /* Buttons and form inputs */
+    button, input, textarea {
+        font-size: 1em;
+        width: 100%; /* Full width on small screens */
+    }
+}
+
+/* Example of a flexible header */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    flex: 1;
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5vw; /* Viewport-width based font size */
+}
+
+p {
+    font-size: 1.2vw;
+}
+#typewriter {
+    border-right: 2px solid #ff9800; /* Cursor effect */
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
