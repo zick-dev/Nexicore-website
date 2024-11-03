@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8d9a997-87d7-446c-a95a-d4f129e788b3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/nexicore_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/nexicore_project.iml" afterDir="false" />
+    <list default="true" id="e8d9a997-87d7-446c-a95a-d4f129e788b3" name="Changes" comment="few hosting update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nexicore/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/nexicore/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nexicore/static/js/particles.js" beforeDir="false" afterPath="$PROJECT_DIR$/nexicore/static/js/particles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nexicore/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/nexicore/static/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nexicore/static/js/typed-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/nexicore/static/js/typed-init.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nexicore/templates/nexicore/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/nexicore/templates/nexicore/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nexicore/templates/nexicore/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/nexicore/templates/nexicore/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nexicore/templates/nexicore/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/nexicore/templates/nexicore/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nexicore/templates/nexicore/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/nexicore/templates/nexicore/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nexicore/templates/nexicore/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/nexicore/templates/nexicore/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nexicore/templates/nexicore/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/nexicore/templates/nexicore/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nexicore/templates/nexicore/roadmap.html" beforeDir="false" afterPath="$PROJECT_DIR$/nexicore/templates/nexicore/roadmap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nexicore/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/nexicore/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nexicore_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/nexicore_project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nexicore_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/nexicore_project/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +16,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "zick-dev"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/zick-dev/Nexicore-website.git",
+    "accountId": "e621bc73-152e-45c0-b8a9-62ea80dd936e"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -97,11 +95,24 @@
       <option name="presentableId" value="Default" />
       <updated>1730412353910</updated>
       <workItem from="1730412358078" duration="24742000" />
-      <workItem from="1730664906271" duration="1746000" />
+      <workItem from="1730664906271" duration="3550000" />
     </task>
+    <task id="LOCAL-00001" summary="few hosting update">
+      <option name="closed" value="true" />
+      <created>1730667990678</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730667990678</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="few hosting update" />
+    <option name="LAST_COMMIT_MESSAGE" value="few hosting update" />
   </component>
 </project>

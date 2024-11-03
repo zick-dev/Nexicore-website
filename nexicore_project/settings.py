@@ -9,7 +9,8 @@ https://docs.djangoproject.com/en/5.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.1/ref/settings/
 """
-
+import os
+from dotenv import load_dotenv
 from pathlib import Path
 from pickle import FALSE
 
@@ -20,16 +21,23 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-mrc!a3z-@pr@az8a#9k=@2eubh0dn$akp1)byf+47#yk8bev%x'
+# Load variables from .env file
+load_dotenv()
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = FALSE
+# SECURITY WARNING: Keep the secret key used in production secret!
+SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", "your_default_secret_key")
 
-ALLOWED_HOSTS = ['.elasticbeanstalk.com']
+# SECURITY WARNING: Don't run with debug turned on in production!
+DEBUG = os.getenv("DEBUG", "False") == "True"
 
+# Set allowed hosts for your deployed environment
+ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", ".elasticbeanstalk.com").split(",")
+
+# Database configuration from environment variable
+DATABASE_URL = os.getenv("DATABASE_URL")
 
 # Application definition
+
 
 INSTALLED_APPS = [
     'nexicore',
