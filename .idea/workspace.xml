@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8d9a997-87d7-446c-a95a-d4f129e788b3" name="Changes" comment="few hosting update2">
+    <list default="true" id="e8d9a997-87d7-446c-a95a-d4f129e788b3" name="Changes" comment="backend changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nexicore_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/nexicore_project/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,18 +16,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "zick-dev"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;zick-dev&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/zick-dev/Nexicore-website.git",
-    "accountId": "e621bc73-152e-45c0-b8a9-62ea80dd936e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/zick-dev/Nexicore-website.git&quot;,
+    &quot;accountId&quot;: &quot;e621bc73-152e-45c0-b8a9-62ea80dd936e&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -38,21 +37,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/dev-space/Desktop/nexicore_website/nexicore_project",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dev-space/Desktop/nexicore_website/nexicore_project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="nexicore_project" type="Python.DjangoServer" factoryName="Django server">
       <module name="nexicore_project" />
@@ -97,6 +96,7 @@
       <updated>1730412353910</updated>
       <workItem from="1730412358078" duration="24742000" />
       <workItem from="1730664906271" duration="6646000" />
+      <workItem from="1730796609269" duration="1614000" />
     </task>
     <task id="LOCAL-00001" summary="few hosting update">
       <option name="closed" value="true" />
@@ -122,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730672087828</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="backend changes">
+      <option name="closed" value="true" />
+      <created>1730796711311</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730796711311</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +139,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="few hosting update" />
     <MESSAGE value="few hosting update2" />
-    <option name="LAST_COMMIT_MESSAGE" value="few hosting update2" />
+    <MESSAGE value="backend changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="backend changes" />
   </component>
 </project>
