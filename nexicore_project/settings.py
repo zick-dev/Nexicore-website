@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-mrc!a3z-@pr@az8a#9k=@2eubh0dn$akp1)byf+47#yk8bev%x
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['142.93.1.130']
+ALLOWED_HOSTS = []###'142.93.1.130']
 
 
 # Application definition
@@ -119,6 +119,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [BASE_DIR / "nexicore/static"]
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
